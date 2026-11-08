@@ -101,6 +101,11 @@ plugins:
     order: 92
   - source: "@quartz-community/quartz-fonts"
     enabled: true
+    # Explicit options also support plugin 1.0.0, which ignores theme.typography.
+    options:
+      header: Roboto
+      body: Roboto
+      code: IBM Plex Mono
   - source: "@quartz-themes/core"
     enabled: false
     options:
